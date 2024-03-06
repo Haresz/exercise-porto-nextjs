@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div style={{ scrollMargin: "0px" }}>
@@ -39,10 +41,10 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <img src="icon.jpeg" alt="" />
+        <Image src="icon.jpeg" alt="" />
       </section>
       <section>
-        <img
+        <Image
           style={{ marginLeft: "124px", width: "40%", paddingRight: "0" }}
           src="icon.jpeg"
           alt=""
@@ -146,7 +148,7 @@ export default function Home() {
         style={{ justifyContent: "space-evenly" }}
       >
         <div className="card-container">
-          <img
+          <Image
             style={{
               width: "240px",
               marginTop: "-120px",
@@ -164,7 +166,7 @@ export default function Home() {
           <p className="name">CEO Building Two</p>
         </div>
         <div className="card-container">
-          <img
+          <Image
             style={{
               width: "240px",
               marginTop: "-120px",
@@ -182,7 +184,7 @@ export default function Home() {
           <p className="name">CEO Building Two</p>
         </div>
         <div className="card-container">
-          <img
+          <Image
             style={{
               width: "240px",
               marginTop: "-120px",

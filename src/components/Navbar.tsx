@@ -1,26 +1,28 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav>
       <h2>
-        <span style={{ color: "#FFB534" }}>Haris's</span>Portofolio
+        <span style={{ color: "#FFB534" }}>Haris&apos;s</span>Portofolio
       </h2>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <a href="/about">About</a>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <a href="/project">Project</a>
+          <Link href="/project">Project</Link>
         </li>
         <li>
-          <a href="/experient">Experience</a>
+          <Link href="/experient">Experience</Link>
         </li>
         <li className="contact-nav-menu">
-          <a style={{ color: "white" }} href="/contact">
+          <Link style={{ color: "white" }} href="/contact">
             Contact me!
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
